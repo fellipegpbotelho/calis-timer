@@ -1,5 +1,5 @@
 {
-  "name": "CalisTimer",
+  "name": "calis-timer",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "react": "16.6.3",
-    "react-native": "0.58.6"
+    "react-native": "0.58.6",
+    "react-native-gesture-handler": "^1.0.17",
+    "react-navigation": "^3.3.2"
   },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0",
@@ -16,6 +18,11 @@
     "jest": "24.1.0",
     "metro-react-native-babel-preset": "0.53.0",
     "react-test-renderer": "16.6.3"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
   },
   "jest": {
     "preset": "react-native"
