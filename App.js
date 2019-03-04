@@ -10,7 +10,7 @@ const AppNavigator = createStackNavigator(
     EMOM: EMOMScreen
   },
   {
-    initialRouteName: "Home"
+    initialRouteName: "EMOM"
   }
 );
 
