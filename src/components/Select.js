@@ -25,7 +25,7 @@ class Select extends Component {
     const { options, label } = this.props;
     const { current } = this.state;
     return (
-      <View style={styles.container}>
+      <View>
         <Text style={styles.label}>{label}</Text>
         <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
           {options.map(option => {
